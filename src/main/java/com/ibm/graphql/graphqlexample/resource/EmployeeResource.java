@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 import graphql.ExecutionResult;
 
 @RestController
-@RequestMapping(value = "/api/v1/employee")
+@RequestMapping(value = "/api/v1")
 public class EmployeeResource {
 
     @Autowired
     GraphQLService graphQLService;
 
-    @GetMapping(value = "/all")
+    @GetMapping(value = "/employee")
     public ResponseEntity<Object> getAllEmployees(@RequestBody String requestString) {
         ExecutionResult executionResult = graphQLService.getGraphQL().execute(requestString);
         return new ResponseEntity<>(executionResult, HttpStatus.OK);
