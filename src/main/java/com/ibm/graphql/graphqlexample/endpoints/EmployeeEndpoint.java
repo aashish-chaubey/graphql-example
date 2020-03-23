@@ -1,4 +1,4 @@
-package com.ibm.graphql.endpoints;
+package com.ibm.graphql.graphqlexample.endpoints;
 
 import java.util.List;
 
