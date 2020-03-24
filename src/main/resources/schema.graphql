@@ -9,9 +9,9 @@ type Query {
 }
 
 type Employee {
-    id: Int,
-    first_name: String
-    last_name: String
-    job_title: String
+    id: Int
+    firstName: String
+    lastName: String
+    jobTitle: String
     salary: Int
 }
