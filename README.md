@@ -1,5 +1,5 @@
 ## GrapghQL starter example with Java and MySQL
-In this project, we intend to show how GrapghQL could be used with MySQL as a database and access it through a Spring boot application. First we make a Spring Boot application for the endpoint and the insert GrapghQL as a layer between the database and the application. This is a pretty easy bottom up build. You can read more about graphQL in the [docs](https://graphql.org/).  
+In this project, we intend to show how GrapghQL could be used with MySQL as a database and access it through a Spring boot application. First we make a Spring Boot application for the endpoint and the insert GrapghQL as a layer between the client and the API. This is a pretty easy bottom up build. You can read more about graphQL in the [docs](https://graphql.org/).  
 It is also important to note at this point that GraphQL can be made to work with any kind of database - structured, unstructured - given we import the correct dependencies. Also, since this is just a demonstration example, we have not shown the right use case. In this case it may seem like an overkill for the application.  
 
 ### GraphQL Correct usecase
